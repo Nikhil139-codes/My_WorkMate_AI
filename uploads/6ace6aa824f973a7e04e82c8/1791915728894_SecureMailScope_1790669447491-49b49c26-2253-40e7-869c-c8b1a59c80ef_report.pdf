@@ -1,0 +1,327 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2615 >>
+stream
+BT
+/F1 9 Tf
+40 750 Td
+(========================================================================================) Tj
+0 -15 Td
+(        SECUREMAILSCOPE | CRYPTOGRAPHIC SECURITY POSTURE ASSESSMENT REPORT              ) Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+(Capture File: mail-lab-1790669433159-0b228432-820e-47bf-8264-5ee98ebe11c4.pcapng) Tj
+0 -15 Td
+(Session ID:   1790669447491-49b49c26-2253-40e7-869c-c8b1a59c80ef) Tj
+0 -15 Td
+(Analysis Time: 2026-09-29T08:10:47.492Z) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------------------------- 1. EXECUTIVE SUMMARY -----------------------------------) Tj
+0 -15 Td
+(Security Score:        100 / 100 \(Grade: A, Posture: Excellent\)) Tj
+0 -15 Td
+(Policy Compliance:     Compliant / Fully Consistent) Tj
+0 -15 Td
+(Capture Integrity:     Verified AES-256-GCM Configuration Manifest) Tj
+0 -15 Td
+(Executive Summary:     AI assessment unavailable. Deterministic rule-based cryptographic evalua) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------------------------- 2. CAPTURE OVERVIEW ------------------------------------) Tj
+0 -15 Td
+(Packet Count:          18 packets) Tj
+0 -15 Td
+(Capture Duration:      1.0 seconds) Tj
+0 -15 Td
+(Capture Format:        PCAPNG) Tj
+0 -15 Td
+(Network Flow:          172.30.0.2:50000 -> 172.30.0.3:587) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(---------------------- 3. EMAIL PROTOCOL & TCP STREAM ANALYSIS -------------------------) Tj
+0 -15 Td
+(Detected Protocol:     SMTP on Port 587 \(high confidence\)) Tj
+0 -15 Td
+(STARTTLS State:        SECURE UPGRADE) Tj
+0 -15 Td
+(STARTTLS Description:  STARTTLS command executed and successfully upgraded plaintext channel to) Tj
+0 -15 Td
+(STARTTLS Advertised:   YES | Negotiated: YES | Required: YES) Tj
+0 -15 Td
+(TCP Streams Count:     18 stream\(s\) reconstructed \(complete\)) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------------------------ 4. TLS LAYER ANALYSIS -----------------------------------) Tj
+0 -15 Td
+(Negotiated TLS Version: TLS1.3) Tj
+0 -15 Td
+(Selected Cipher Suite:  TLS_AES_256_GCM_SHA384) Tj
+0 -15 Td
+(Key Exchange Algorithm: ECDHE \(Named Group: X25519\)) Tj
+0 -15 Td
+(Forward Secrecy \(PFS\):  ENABLED \(Ephemeral Key Exchange\)) Tj
+0 -15 Td
+(Handshake Completion:  YES \(Handshake Completed Successfully\)) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+(                                     Page 1 of 4                                        ) Tj
+0 -15 Td
+(========================================================================================) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3670 >>
+stream
+BT
+/F1 9 Tf
+40 750 Td
+(========================================================================================) Tj
+0 -15 Td
+(                       SECUREMAILSCOPE | CRYPTOGRAPHIC AUDIT REPORT                     ) Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(-------------------------- 5. X.509 CERTIFICATE ANALYSIS -------------------------------) Tj
+0 -15 Td
+(Subject Common Name:   mail.smtp.lab.local) Tj
+0 -15 Td
+(Issuing CA:            SecureMailScope Test CA \(CA-ISSUED\)) Tj
+0 -15 Td
+(Validity Window:       2025-09-29 to 2027-09-29) Tj
+0 -15 Td
+(Expiration Check:      VALID) Tj
+0 -15 Td
+(Public Key:            RSA 2048 bits) Tj
+0 -15 Td
+(Signature Algorithm:   SHA256withRSA) Tj
+0 -15 Td
+(Trust Chain Status:    TRUSTED / VALID CHAIN) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------ 6. CRYPTOGRAPHIC POSTURE ACROSS 17 SECURITY CATEGORIES --------------------) Tj
+0 -15 Td
+([01] Protocol Security                   : [PASS   ] Session successfully established cryptog) Tj
+0 -15 Td
+([02] TLS Version                         : [PASS   ] Modern TLS protocol version TLS1.3 obser) Tj
+0 -15 Td
+([03] Cipher Suite                        : [PASS   ] Strong modern AEAD cipher suite TLS_AES_) Tj
+0 -15 Td
+([04] Cryptographic Strength              : [PASS   ] Cryptographic parameters meet NIST SP 80) Tj
+0 -15 Td
+([05] Key Exchange                        : [PASS   ] Ephemeral key exchange observed, protect) Tj
+0 -15 Td
+([06] Forward Secrecy                     : [PASS   ] Perfect Forward Secrecy is guaranteed by) Tj
+0 -15 Td
+([07] Certificate Security                : [PASS   ] Certificate is signed by a recognized Ce) Tj
+0 -15 Td
+([08] Certificate Chain                   : [PASS   ] Complete verifiable certificate chain ob) Tj
+0 -15 Td
+([09] Certificate Expiration              : [PASS   ] Certificate is within its active validit) Tj
+0 -15 Td
+([10] Public Key Algorithm                : [PASS   ] Algorithm RSA is approved under NIST SP ) Tj
+0 -15 Td
+([11] Public Key Length                   : [PASS   ] RSA 2048-bit meets current NIST 112-bit ) Tj
+0 -15 Td
+([12] Signature Algorithm                 : [PASS   ] Cryptographically secure signature algor) Tj
+0 -15 Td
+([13] STARTTLS Security                   : [PASS   ] STARTTLS capability advertised and TLS u) Tj
+0 -15 Td
+([14] Configuration Compliance            : [PASS   ] All observable cryptographic settings sa) Tj
+0 -15 Td
+([15] Deprecated Cryptography             : [PASS   ] No deprecated or retired cryptographic p) Tj
+0 -15 Td
+([16] TLS Anomalies                       : [PASS   ] Clean TLS handshake and execution profil) Tj
+0 -15 Td
+([17] Configuration vs Observed mismatch  : [PASS   ] Configured parameters verified identical) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(-------- 7. CRYPTOGRAPHIC SECURITY STRENGTH \(NIST SP 800-57 Part 1 Rev. 5\) ------------) Tj
+0 -15 Td
+(* Public Key         : RSA                  | Strength: 112 bits \(Acceptable through 2030\) | [A) Tj
+0 -15 Td
+(* Bulk Encryption    : AES-256              | Strength: 256 bits                  | [STRONG]) Tj
+0 -15 Td
+(* Key Exchange Group : ECDHE                | Strength: 128 bits                  | [STRONG]) Tj
+0 -15 Td
+(* Signature Hash     : SHA256withRSA        | Strength: 128 bits                  | [STRONG]) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+(                                     Page 2 of 4                                        ) Tj
+0 -15 Td
+(========================================================================================) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2265 >>
+stream
+BT
+/F1 9 Tf
+40 750 Td
+(========================================================================================) Tj
+0 -15 Td
+(                       SECUREMAILSCOPE | CRYPTOGRAPHIC AUDIT REPORT                     ) Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(----------- 8. CONFIGURATION COMPLIANCE \(CONFIGURED POLICY VS OBSERVED\) ----------------) Tj
+0 -15 Td
+(Protocol              : Configured: SMTP             | Observed: SMTP             [MATCH]) Tj
+0 -15 Td
+(Port                  : Configured: 587              | Observed: 587              [MATCH]) Tj
+0 -15 Td
+(STARTTLS              : Configured: Enabled          | Observed: Advertised       [MATCH]) Tj
+0 -15 Td
+(TLS Version           : Configured: TLS1.3           | Observed: TLS1.3           [MATCH]) Tj
+0 -15 Td
+(Cipher Suite          : Configured: TLS_AES_256_GCM_SHA384 | Observed: TLS_AES_256_GCM_SHA384 [) Tj
+0 -15 Td
+(Key Exchange          : Configured: ECDHE            | Observed: ECDHE            [MATCH]) Tj
+0 -15 Td
+(Named Group           : Configured: X25519           | Observed: X25519           [MATCH]) Tj
+0 -15 Td
+(Forward Secrecy       : Configured: Enforced         | Observed: Enforced         [MATCH]) Tj
+0 -15 Td
+(Certificate Present   : Configured: Yes              | Observed: Yes              [PASS]) Tj
+0 -15 Td
+(Certificate Validity  : Configured: Valid            | Observed: Valid            [PASS]) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------------- 9. SECURITY SCORE DEDUCTIONS BREAKDOWN ------------------------------) Tj
+0 -15 Td
+(Overall Score: 100/100 | Grade: A | Posture: Excellent) Tj
+0 -15 Td
+(  * No score deductions. All observable parameters satisfy standards.) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(-------------------------- 10. SECURITY FINDINGS \(0\) ---------------------------) Tj
+0 -15 Td
+(  * Zero security findings identified in this session.) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+(                                     Page 3 of 4                                        ) Tj
+0 -15 Td
+(========================================================================================) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 2054 >>
+stream
+BT
+/F1 9 Tf
+40 750 Td
+(========================================================================================) Tj
+0 -15 Td
+(                       SECUREMAILSCOPE | CRYPTOGRAPHIC AUDIT REPORT                     ) Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(------------------------------ 11. ANOMALY DETECTION -----------------------------------) Tj
+0 -15 Td
+(  * No anomalous downgrade attempts or protocol discrepancies identified.) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(--------------------------- 12. AI SECURITY ASSESSMENT ---------------------------------) Tj
+0 -15 Td
+(  AI assessment unavailable. Showing deterministic security assessment.) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(-------------------- 13. PRIORITIZED REMEDIATION RECOMMENDATIONS -----------------------) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(----------------------- 14. STANDARDS & NORMATIVE REFERENCES ---------------------------) Tj
+0 -15 Td
+(  * NIST SP 800-52 Rev. 2     : Guidelines for the Selection, Configurat \(Section 3.1 - 3.4\)) Tj
+0 -15 Td
+(  * NIST SP 800-57 Part 1 Rev. 5 : Recommendation for Key Management: Crypt \(Section 5.6.1 Tabl) Tj
+0 -15 Td
+(  * RFC 8996                  : Deprecating TLS 1.0 and TLS 1.1 \(BCP 195 \(Sections 1 - 2\)) Tj
+0 -15 Td
+(  * RFC 8446                  : The Transport Layer Security \(TLS\) Proto \(Section 4.4 & Appendi) Tj
+0 -15 Td
+(  * RFC 3207                  : SMTP Service Extension for Secure SMTP o \(Sections 4 & 5\)) Tj
+0 -15 Td
+(  * CISA Guidance             : CISA Capacity Building Guidance for Secu \(Section 4.2\)) Tj
+0 -15 Td
+(  * CA/Browser Forum          : Baseline Requirements for the Issuance a \(Section 6.1.5 & 6.3.2) Tj
+0 -15 Td
+() Tj
+0 -15 Td
+(========================================================================================) Tj
+0 -15 Td
+(                                     Page 4 of 4                                        ) Tj
+0 -15 Td
+(========================================================================================) Tj
+ET
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000134 00000 n 
+0000000202 00000 n 
+0000000328 00000 n 
+0000002995 00000 n 
+0000003121 00000 n 
+0000006843 00000 n 
+0000006969 00000 n 
+0000009286 00000 n 
+0000009414 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+11521
+%%EOF

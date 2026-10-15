@@ -1,0 +1,23 @@
+record_id,customer_name,email,order_date,city,amount_inr,quantity,status
+1001,Aarav Sharma,aarav.sharma@example.com,2026-01-15,Mumbai,1200,2,Completed
+1002,Priya Patel,priya.patel@example.com,15/02/2026,Delhi,850,1,Completed
+1003,Rohan Mehta,rohan.mehta@example.com,2026/03/10,Bengaluru,1499,3,Pending
+1004,Ananya Singh,ananya.singh@example.com,04-12-2026,Pune,650,1,Completed
+1005,Vikram Rao,vikram.rao@example.com,2026-05-21,Hyderabad,99999,2,Cancelled
+1006,Neha Gupta,neha.gupta@example.com,21/06/2026,Mumbai,1100,2,Completed
+1007,Kabir Khan,kabir.khan@example.com,2026-07-08,Delhi,750,1,Pending
+1008,Isha Verma,isha.verma@example.com,08/08/2026,Chennai,1300,3,Completed
+1009,Dev Nair,dev.nair@example.com,2026-09-02,Kolkata,890,2,Completed
+1010,Sara Ali,,02/10/2026,Pune,1050,2,Pending
+1011,Mira Joshi,mira.joshi@example.com,2026-01-25,Mumbai,1250,2,Completed
+1012,Arjun Das,arjun.das@example.com,25/02/2026,Delhi,920,1,Completed
+1013,Tara Bose,tara.bose@example.com,2026-03-17, chennai ,1180,2,Pending
+1014,Karan Shah,karan.shah@example.com,17/04/2026,Bengaluru,1380,3,Completed
+1015,Riya Kapoor,riya.kapoor@example.com,2026-05-05,Hyderabad,760,1,Completed
+1016,Nikhil Jain,nikhil.jain@example.com,05/06/2026,Mumbai,990,2,Cancelled
+1017,Sana Roy,sana.roy@example.com,2026-07-19,Pune,1110,2,completed
+1018,Aditya Sen,aditya.sen@example.com,19/08/2026,Delhi,870,1,Pending
+1019,Pooja Iyer,pooja.iyer@example.com,2026-09-11,Chennai,1420,-2,Completed
+1020,Farhan Malik,farhan.malik@example.com,11/10/2026,Kolkata,950,2,Completed
+1003,Rohan Mehta,rohan.mehta@example.com,2026/03/10,Bengaluru,1499,3,Pending
+1008,Isha Verma,isha.verma@example.com,08/08/2026,Chennai,1300,3,Completed

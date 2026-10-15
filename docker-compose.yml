@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # Optional local MongoDB service (if not using MongoDB Atlas cloud cluster)
+  mongodb:
+    image: mongo:7-jammy
+    container_name: workmate_ai_mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: workmate_ai
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
