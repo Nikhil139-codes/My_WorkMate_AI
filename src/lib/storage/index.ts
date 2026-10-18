@@ -78,12 +78,19 @@ export class LocalStorageProvider implements IStorageProvider {
   }
 }
 
+export { GCSStorageProvider, bucket, gcsStorage, BUCKET_NAME } from "./gcs";
+
 /**
- * Storage factory - easily swappable with S3StorageProvider or GCSStorageProvider in future phases
+ * Storage factory - swappable between local filesystem and Google Cloud Storage (GCS)
  */
 export function getStorageProvider(): IStorageProvider {
-  const driver = process.env.STORAGE_DRIVER || "local";
+  const driver = (process.env.STORAGE_DRIVER || "local").toLowerCase();
   switch (driver) {
+    case "gcs":
+    case "google":
+      // Import GCSStorageProvider dynamically/lazily
+      const { GCSStorageProvider } = require("./gcs");
+      return new GCSStorageProvider();
     case "local":
     default:
       return new LocalStorageProvider();
@@ -91,3 +98,4 @@ export function getStorageProvider(): IStorageProvider {
 }
 
 export const storage = getStorageProvider();
+

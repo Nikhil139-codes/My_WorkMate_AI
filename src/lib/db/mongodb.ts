@@ -17,7 +17,13 @@ if (!cached) {
 }
 
 export function getMongoUri(): string {
-  return process.env.MONGODB_URI || "mongodb://localhost:27017";
+  const uri = process.env.MONGODB_URI;
+  if (!uri) {
+    throw new Error(
+      "MONGODB_URI environment variable is not defined. Please set MONGODB_URI in your environment or .env file."
+    );
+  }
+  return uri;
 }
 
 export function getMongoDbName(): string {
